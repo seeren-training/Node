@@ -10,7 +10,7 @@ ___
 
 ## 📑 [Installation](https://expressjs.com/)
 
-![image](./resources/express.png)
+![image](https://raw.githubusercontent.com/seeren-training/Node/master/wiki/resources/express.png)
 
 Le générateur d'application est utile pour norer le projet.
 

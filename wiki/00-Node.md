@@ -14,6 +14,7 @@ ___
 
 * [Node](https://github.com/seeren-training/Node/wiki/01)
 * [Express](https://github.com/seeren-training/Node/wiki/02)
+* [Swagger](https://github.com/seeren-training/Node/wiki/03)
 
 ___
 

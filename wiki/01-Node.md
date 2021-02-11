@@ -31,7 +31,7 @@ module.exports = feature;
 
 ### 🏷️ **Execution**
 
-Exécuter des instructions.
+* Exécuter des instructions
 
 ```bash
 node
@@ -41,7 +41,7 @@ undefined
 true
 ```
 
-Exécuter un script.
+* Exécuter un script
 
 ```bash
 node ./my-script
@@ -60,4 +60,6 @@ V8 est le moteur d'exécution JavaScript qui a été initialement conçu pour Go
 
 ![image](https://raw.githubusercontent.com/seeren-training/Node/master/wiki/resources/thread.png)
 
-Node.js fonctionne sur une boucle d'événement à un seul thread, en utilisant des appels non bloquants, ce qui lui permet de prendre en charge des dizaines de milliers de connexions simultanées sans encourir le coût du changement de contexte de thread. La conception du partage d'un seul thread entre toutes les demandes qui utilisent le modèle d'observateur est destinée à la création d'applications hautement simultanées, où toute fonction exécutant doit utiliser un rappel. Pour accueillir la boucle d'événements à thread unique, Node.js utilise la bibliothèque `libuv` - qui, à son tour, utilise un pool de threads de taille fixe qui gère certaines des opérations asynchrones non bloquantes.
+Node.js fonctionne sur une boucle d'événement à un seul thread, en utilisant des appels non bloquants, ce qui lui permet de prendre en charge des dizaines de milliers de connexions simultanées sans encourir le coût du changement de contexte de thread.
+
+La conception du partage d'un seul thread entre toutes les demandes qui utilisent le modèle d'observateur est destinée à la création d'applications hautement simultanées, où toute fonction exécutant doit utiliser un rappel. Pour accueillir la boucle d'événements à thread unique, Node.js utilise la bibliothèque `libuv` - qui, à son tour, utilise un pool de threads de taille fixe qui gère certaines des opérations asynchrones non bloquantes.

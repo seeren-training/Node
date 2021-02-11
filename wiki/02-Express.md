@@ -120,13 +120,13 @@ ___
 
 #### **Headers**
 
-Récupérer les headers.
+* Récupérer les headers
 
 ```js
 const headers = req.headers;
 ```
 
-Récupérer un header.
+* Récupérer un header
 
 ```js
 const host = req.header("host");
@@ -164,6 +164,7 @@ ___
 👨🏻‍💻 Manipulation
 
 Créez une table pour votre model
+
 ___
 
 ### 🏷️ **[Connection](https://www.npmjs.com/package/mysql#establishing-connections)**
@@ -181,6 +182,7 @@ ___
 👨🏻‍💻 Manipulation
 
 Isolez votre connection
+
 ___
 
 ### 🏷️ **[Queries](https://www.npmjs.com/package/mysql#performing-queries)**

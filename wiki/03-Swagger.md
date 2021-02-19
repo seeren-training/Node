@@ -8,7 +8,7 @@ ___
 
 La normalisation d'une API permet d'automatiser sa documentation et de favoriser le travail collaboratif.
 
-La specification `OpenApi` créee par swagger utilise le design first.
+La spécification `OpenApi` créee par swagger utilise le design first.
 
 Avant de partir en logique métier, je vous conseil d'utiliser les Swagger `ui`, `editor` et `code gen` pour designer votre API. Ou plus simplement `SwaggerHub`.
 

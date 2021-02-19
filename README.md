@@ -1,4 +1,4 @@
-# Node
+# Node - Une introduction à Node.js avec Express
 
 ## Durée
 
